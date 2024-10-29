@@ -85,7 +85,7 @@ function writeHikes() {
     last_updated: firebase.firestore.Timestamp.fromDate(new Date("January 1, 2023")),
   });
 }
-writeHikes(); //run the function
+// writeHikes(); //run the function
 
 
 
