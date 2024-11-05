@@ -84,6 +84,7 @@ function writeHikes() {
     lng: -122.94092543551031,
     last_updated: firebase.firestore.Timestamp.fromDate(new Date("January 1, 2023")),
   });
+  console.log("The hikes have been written");
 }
 // writeHikes(); //run the function
 
